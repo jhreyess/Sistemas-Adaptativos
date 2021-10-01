@@ -1,0 +1,26 @@
+.navbar{
+    position:sticky;
+    top: 0;
+    text-align: right;
+    background-color: #3399ff;
+    padding: 16px 48px;
+}
+
+.navbar a{
+    transition: 200ms;
+    color: #fff;
+    text-decoration: none;
+    padding: 16px;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    transition: 200ms;
+    background-color: #fafafa;
+    color: #3399ff;
+}
+
+.navbar > .active{
+    background-color: #fafafa;
+    color: #3399ff;
+}

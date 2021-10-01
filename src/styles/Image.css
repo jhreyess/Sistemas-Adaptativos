@@ -1,0 +1,22 @@
+.imgWrapper{
+    height: 400px;
+    text-align: center;
+}
+
+.imgWrapper img{
+    height: inherit;
+    width: 100%;
+    object-fit: contain;
+}
+
+.large{
+    height: 400px;
+}
+
+.medium{
+    height: 200px;
+}
+
+.small{
+    height: 100px;
+}
