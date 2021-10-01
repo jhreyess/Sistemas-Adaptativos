@@ -17,28 +17,28 @@ function Practica1(){
     return(
         <div className="content">
             <Sidebar>
-                <a href="#description">Description</a>
-                <a href="#objectives">Objectives</a>
-                <a href="#introduction">Introduction</a>
-                <a href="#design">Design</a>
-                <a href="#code">Code</a>
-                <a href="#video">Performance</a>
-                <a href="#conclusions">Conclusions</a>
-                <a href="#references">References</a>
+                <a href="#practica1/description">Description</a>
+                <a href="#practica1/objectives">Objectives</a>
+                <a href="#practica1/introduction">Introduction</a>
+                <a href="#practica1/design">Design</a>
+                <a href="#practica1/code">Code</a>
+                <a href="#practica1/video">Performance</a>
+                <a href="#practica1/conclusions">Conclusions</a>
+                <a href="#practica1/references">References</a>
             </Sidebar>
             <Article>
                 <h1>Adaptive Algorithm</h1><hr />
-                <h3 id="description">Description</h3>
+                <h3 id="practica1/description">Description</h3>
                 <p>In this activity it will be implemented a system that simulates
                     congested streets and it adjust automatically the duration of the
                     green traffic lights on the streets.
                 </p>
-                <h3 id="objectives">Objectives</h3>
+                <h3 id="practica1/objectives">Objectives</h3>
                 <ul>
                     <li>Implement Traffic light control in an environment of intersections and avenues of various senses</li>
                     <li>Make a report where you can describe your work and the results you got</li>
                 </ul>
-                <h3 id="introduction">Introduction</h3>
+                <h3 id="practica1/introduction">Introduction</h3>
                 <p>The problem was solved using Python and different modules such as Pygame for the simulation 
                     displaying and threading for the execution of the algorithm.
                     The first task done was to creade the environment of intersectios and congested streets, after that,
@@ -47,7 +47,7 @@ function Practica1(){
                     the system have. Later in this document, it will be possible to observe the development of a MVC 
                     architecture implementing queues and threads.
                 </p>
-                <h3 id="design">Cross Street Design</h3>
+                <h3 id="practica1/design">Cross Street Design</h3>
                 <p>In the diagram below, the different directions of the street lanes are shown, 
                     in which it is possible to see the straight direction and
                     the turn direction.
@@ -137,7 +137,7 @@ function Practica1(){
                 </p>
                 <p>The served clients are those cars that have already left behind the traffic light.</p>
                 <Images size="large"><img src={img5} alt="Queues" /></Images>
-                <h3 id="code">Code</h3>
+                <h3 id="practica1/code">Code</h3>
                 <p>In the programming stage the problem was to find a correct way to make the system, implementing
                     tools such as threads. The solution was obtained through the analysis of each member of the team.
                     The general idea is raised grouping the street lanes by pairs, each pair was named by its position,
@@ -256,9 +256,9 @@ function Practica1(){
     `}
                 </SyntaxHighlighter>
                 </div>
-                <h3 id="video">Performance</h3>
+                <h3 id="practica1/video">Performance</h3>
                 <iframe style={{display: "block", margin: "0 auto"}} width="560" height="315" src="https://www.youtube.com/embed/epZEQi-c4bI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                <h3 id="conclusions">Conclusion</h3>
+                <h3 id="practica1/conclusions">Conclusion</h3>
                 <p>
                     This activity was a total challenge for the teamwork, before reading the theory that involves an 
                     auto adjust system the ideas that each member had were too different to the final product. The 
@@ -281,7 +281,7 @@ function Practica1(){
                     change is the duration of the green light for a more realistic, in this case the velocity of the cars 
                     must change. 
                 </p>
-                <h3 id="references">References</h3>
+                <h3 id="practica1/references">References</h3>
                 <ol>
                     <li>3.9.7 Documentation. (n.d.). Python. Retrieved September 20, 2021, from <a href="https://docs.python.org/3/">python.org</a></li>
                     <li>Pygame Front Page - pygame v2.0.1. documentation. (n.d.). Retrieved September 20, 2021, from <a href="https://www.pygame.org/docs">pygame.org</a></li>

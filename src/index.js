@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import './index.css';
 
 import Header from './components/Blog/Header';
@@ -16,7 +16,7 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-        <BrowserRouter>
+        <Router>
           <NavigationBar />
           <Switch>
             <Route exact path="/practica1" component={Practica1}/>
@@ -26,7 +26,7 @@ const App = () => {
             <Route exact path="/pia" component={Pia}/>
             <Route path="/" component={Practica1}/>
           </Switch>
-        </BrowserRouter>
+        </Router>
     </div>
   );
 }

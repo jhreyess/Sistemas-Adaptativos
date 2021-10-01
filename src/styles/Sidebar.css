@@ -4,6 +4,11 @@
     background-color: #e4e8f0;
 }
 
+.sidebar{
+    position: sticky;
+    top: 10%;
+}
+
 .sidebar a{
     display: block;
     padding: 16px;
