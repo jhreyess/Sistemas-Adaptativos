@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Sistemas-Adaptativos/static/css/main.729f01d3.chunk.css",
+    "main.js": "/Sistemas-Adaptativos/static/js/main.0ed8d333.chunk.js",
+    "main.js.map": "/Sistemas-Adaptativos/static/js/main.0ed8d333.chunk.js.map",
+    "runtime-main.js": "/Sistemas-Adaptativos/static/js/runtime-main.b14d7d74.js",
+    "runtime-main.js.map": "/Sistemas-Adaptativos/static/js/runtime-main.b14d7d74.js.map",
+    "static/js/2.d8933b64.chunk.js": "/Sistemas-Adaptativos/static/js/2.d8933b64.chunk.js",
+    "static/js/2.d8933b64.chunk.js.map": "/Sistemas-Adaptativos/static/js/2.d8933b64.chunk.js.map",
+    "index.html": "/Sistemas-Adaptativos/index.html",
+    "static/css/main.729f01d3.chunk.css.map": "/Sistemas-Adaptativos/static/css/main.729f01d3.chunk.css.map",
+    "static/js/2.d8933b64.chunk.js.LICENSE.txt": "/Sistemas-Adaptativos/static/js/2.d8933b64.chunk.js.LICENSE.txt",
+    "static/media/cases.67fb771b.jpg": "/Sistemas-Adaptativos/static/media/cases.67fb771b.jpg",
+    "static/media/equation1.7375545f.jpg": "/Sistemas-Adaptativos/static/media/equation1.7375545f.jpg",
+    "static/media/graph.69f3fb79.jpg": "/Sistemas-Adaptativos/static/media/graph.69f3fb79.jpg",
+    "static/media/queue.322f7b35.jpg": "/Sistemas-Adaptativos/static/media/queue.322f7b35.jpg",
+    "static/media/roads.4c91e9c8.jpg": "/Sistemas-Adaptativos/static/media/roads.4c91e9c8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b14d7d74.js",
+    "static/js/2.d8933b64.chunk.js",
+    "static/css/main.729f01d3.chunk.css",
+    "static/js/main.0ed8d333.chunk.js"
+  ]
+}
