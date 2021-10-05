@@ -1,7 +1,6 @@
 .table table{
     border-collapse: collapse;
-    margin: auto;
-    width: 70%;
+    width: 50%;
 }
 
 .table thead{

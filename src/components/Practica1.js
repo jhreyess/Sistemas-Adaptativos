@@ -1,5 +1,5 @@
 import SyntaxHighlighter from 'react-syntax-highlighter';
-import { nightOwl } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+import { atelierHeathLight } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 import Sidebar from './Blog/Sidebar'
 import Article from './Blog/Article'
@@ -51,11 +51,12 @@ function Practica1(){
                 <p>In the diagram below, the different directions of the street lanes are shown, 
                     in which it is possible to see the straight direction and
                     the turn direction.
+                    <br/>
+                    A symbology is attached to each lane to allow understanding of the problem.
                 </p>
-                <p>A symbology is attached to each lane to allow understanding of the problem.</p>
-                <Images size="large"><img src={img1} alt="Roads" /></Images>
+                <Images><img src={img1} alt="Roads" /></Images>
                 <h3>Graphic Scheme</h3>
-                <Images size="large"><img src={img2} alt="Graph" /></Images>
+                <Images><img src={img2} alt="Graph" /></Images>
                 <h3>Conflict matrix</h3>
                 <Table>
                     <thead>
@@ -114,7 +115,7 @@ function Practica1(){
                 <p>The first thing done was the separation of cases graphicly, in the image below it's possible
                     to see the four cases and the street lanes that they integrate.
                 </p>
-                <Images size="large"><img src={img3} alt="Road cases" /></Images>
+                <Images><img src={img3} alt="Road cases" /></Images>
                 <p>Subsequently it was necessary a mecanism to determine how many servers and queues the system would have
                     and the service mechanism to be implemented. The next image represents the queue system that will be implemented.
                     The input source has infinite size, this is because the cars will arrive randomly, and their arrival times are
@@ -122,7 +123,7 @@ function Practica1(){
                     where the cars of one queue are catered while the other one is waiting. The time of service will be given by the 
                     traffic light considering the number of cars in each street lane at its service and given by the following equation.
                 </p>
-                <Images size="medium"><img src={img4} alt="Equation (1)" /></Images>
+                <Images><img src={img4} alt="Equation (1)" /></Images>
                 <Legend>Where 'n' is the number of cars in the queue, 't' stands for the pedestrian crossing time
                     and 'm' is the maximum number of cars that can be in the queue.
                 </Legend>
@@ -136,7 +137,7 @@ function Practica1(){
                     operation is added to 5.
                 </p>
                 <p>The served clients are those cars that have already left behind the traffic light.</p>
-                <Images size="large"><img src={img5} alt="Queues" /></Images>
+                <Images><img src={img5} alt="Queues" /></Images>
                 <h3 id="practica1/code">Code</h3>
                 <p>In the programming stage the problem was to find a correct way to make the system, implementing
                     tools such as threads. The solution was obtained through the analysis of each member of the team.
@@ -150,62 +151,63 @@ function Practica1(){
                         <li>roadsY2 : B2 D2</li>
                     </ul>
                 <p>The first time of the green light was defined by the number of cars in the street lanes having a 
-                    self adjustment that allows a better vehicular flow.
+                    self adjustment that allows a better vehicular flow.<br />
+                
+                    The movement of the cars was done by the following function.
                 </p>
-                <p>The movement of the cars was done by the following function.</p>
                 <div className="coding">
-                <SyntaxHighlighter language="python" style={nightOwl} wrapLongLines={true}>
+                <SyntaxHighlighter language="python" style={atelierHeathLight} wrapLongLines={true}>
     {`
-        def move(self, isGreen):
-            self.canMove = self.calculateDistance(self.stopPlace)
-            self.isRoadClear = self.calculateCarDistance()
-            if((self.isRoadClear and self.canMove) or isGreen):
-                if self.isVertical:
-                    self.posY -= self.sign*self.carSpeed
-                else:
-                    self.posX -= self.sign*self.carSpeed
-                if((self.posX < -400) or (self.posX > 1040) or (self.posY > 1040) or (self.posY < -400)):
-                    self.newCoords()
+    def move(self, isGreen):
+        self.canMove = self.calculateDistance(self.stopPlace)
+        self.isRoadClear = self.calculateCarDistance()
+        if((self.isRoadClear and self.canMove) or isGreen):
+            if self.isVertical:
+                self.posY -= self.sign*self.carSpeed
+            else:
+                self.posX -= self.sign*self.carSpeed
+            if((self.posX < -400) or (self.posX > 1040) or (self.posY > 1040) or (self.posY < -400)):
+                self.newCoords()
     `}
                 </SyntaxHighlighter>
                 </div>
                 <p>The different states of each traffic light are given by the next code:</p>
                 <div className="coding">
-                <SyntaxHighlighter language="python" style={nightOwl} wrapLongLines={true}>
+                <SyntaxHighlighter language="python" style={atelierHeathLight} wrapLongLines={true}>
     {`
-        def init(self):
-            while True:
-                if(self.state==1):
-                    self.roadsX1.setState(True) # Turn Green
-                    time = self.roadsX1.getTime()*(self.cross_time/self.maxCars) + self.cross_time
-                    sleep(time)
-                    self.roadsX1.setState(False) # Turn Red
+    def init(self):
+        while True:
+            if(self.state==1):
+                self.roadsX1.setState(True) # Turn Green
+                time = self.roadsX1.getTime()*(self.cross_time/self.maxCars) + self.cross_time
+                sleep(time)
+                self.roadsX1.setState(False) # Turn Red
 
-                elif(self.state==2):
-                    self.roadsX2.setState(True) # Turn Green
-                    time = self.roadsX2.getTime()*(self.cross_time/self.maxCars)
-                    sleep(time)
-                    self.roadsX2.setState(False) # Turn Red
+            elif(self.state==2):
+                self.roadsX2.setState(True) # Turn Green
+                time = self.roadsX2.getTime()*(self.cross_time/self.maxCars)
+                sleep(time)
+                self.roadsX2.setState(False) # Turn Red
 
-                elif(self.state==3):
-                    self.roadsY1.setState(True) # Turn Green
-                    time = self.roadsY1.getTime()*(self.cross_time/self.maxCars) + self.cross_time
-                    sleep(time)
-                    self.roadsY1.setState(False) # Turn Red
+            elif(self.state==3):
+                self.roadsY1.setState(True) # Turn Green
+                time = self.roadsY1.getTime()*(self.cross_time/self.maxCars) + self.cross_time
+                sleep(time)
+                self.roadsY1.setState(False) # Turn Red
 
-                elif(self.state==4):
-                    self.roadsY2.setState(True) # Turn Green
-                    time = self.roadsY2.getTime()*(self.cross_time/self.maxCars)
-                    sleep(time)
-                    self.roadsY2.setState(False) # Turn Red
-                    self.state = 0
-                
-                self.state += 1
-                if self.stop_threads:
-                    self.roadsX1.stop()
-                    self.roadsX2.stop()
-                    self.roadsY1.stop()
-                    self.roadsY1.stop()
+            elif(self.state==4):
+                self.roadsY2.setState(True) # Turn Green
+                time = self.roadsY2.getTime()*(self.cross_time/self.maxCars)
+                sleep(time)
+                self.roadsY2.setState(False) # Turn Red
+                self.state = 0
+            
+            self.state += 1
+            if self.stop_threads:
+                self.roadsX1.stop()
+                self.roadsX2.stop()
+                self.roadsY1.stop()
+                self.roadsY1.stop()
     `}
                 </SyntaxHighlighter>
                 </div>
@@ -214,50 +216,50 @@ function Practica1(){
                     and the time in which the cars advance is the opposite. (X1,Y1) and (X2,Y2)
                 </p>
                 <div className="coding">
-                <SyntaxHighlighter language="python" style={nightOwl} wrapLongLines={true}>
+                <SyntaxHighlighter language="python" style={atelierHeathLight} wrapLongLines={true}>
     {`
-        def getTime(self):
-            time1 = self.trafficLight1.getCrossTime()
-            time2 = self.trafficLight2.getCrossTime()
-            return time1 if time1 > time2 else time2
+    def getTime(self):
+        time1 = self.trafficLight1.getCrossTime()
+        time2 = self.trafficLight2.getCrossTime()
+        return time1 if time1 > time2 else time2
     `}
                 </SyntaxHighlighter>
                 </div>
                 <p>The code in the main view file is the following:</p>
                 <div className="coding">
-                <SyntaxHighlighter language="python" style={nightOwl} wrapLongLines={true}>
+                <SyntaxHighlighter language="python" style={atelierHeathLight} wrapLongLines={true}>
     {`
-        import sys, pygame
-        import threading
-        from controller.roads import Roads
+    import sys, pygame
+    import threading
+    from controller.roads import Roads
 
-        pygame.init()
+    pygame.init()
 
-        # Screen settings
-        scale = {'width': 640, 'height': 640}
-        screen = pygame.display.set_mode((scale['width'], scale['height']))
-        pygame.display.set_caption("Traffic Lights")
-        clock = pygame.time.Clock()
+    # Screen settings
+    scale = {'width': 640, 'height': 640}
+    screen = pygame.display.set_mode((scale['width'], scale['height']))
+    pygame.display.set_caption("Traffic Lights")
+    clock = pygame.time.Clock()
 
-        roads = Roads(screen)
-        roads_thread = threading.Thread(target=roads.init, name="Roads thread").start()
+    roads = Roads(screen)
+    roads_thread = threading.Thread(target=roads.init, name="Roads thread").start()
 
-        while True:
-            for event in pygame.event.get():
-                if event.type == pygame.QUIT:
-                    roads.stop_threads = True
-                    pygame.quit()
-                    sys.exit()
-            
-            roads.show()
-            roads.update()
+    while True:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                roads.stop_threads = True
+                pygame.quit()
+                sys.exit()
+        
+        roads.show()
+        roads.update()
 
-            clock.tick(60)
+        clock.tick(60)
     `}
                 </SyntaxHighlighter>
                 </div>
                 <h3 id="practica1/video">Performance</h3>
-                <iframe style={{display: "block", margin: "0 auto"}} width="560" height="315" src="https://www.youtube.com/embed/epZEQi-c4bI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe src="https://www.youtube.com/embed/epZEQi-c4bI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 <h3 id="practica1/conclusions">Conclusion</h3>
                 <p>
                     This activity was a total challenge for the teamwork, before reading the theory that involves an 

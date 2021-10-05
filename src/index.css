@@ -17,3 +17,19 @@ code {
 .content{
   display: flex;
 }
+
+.coding > pre{
+  border-radius: 8px;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+iframe{
+  width: 80%;
+  height: 45vw;
+}
+
+@media only screen and (max-Width: 768px){
+  iframe{
+    width: 100%;
+  }
+}

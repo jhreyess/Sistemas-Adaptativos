@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import './index.css';
 
-import Header from './components/Blog/Header';
 import NavigationBar from './components/Blog/NavigationBar';
 
 import Practica1 from './components/Practica1';
@@ -15,7 +14,6 @@ import Pia from './components/Pia';
 const App = () => {
   return (
     <div className="App">
-      <Header />
         <Router>
           <NavigationBar />
           <Switch>
