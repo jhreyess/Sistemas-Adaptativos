@@ -13,8 +13,10 @@ function NavigationBar(){
     }, []);
 
     const changeStyle = () => {
-        let target = document.getElementById('burgerIcon');
-        target.classList.toggle('active');
+        if(!matches){
+            let target = document.getElementById('burgerIcon');
+            target.classList.toggle('active');
+        }
         let navLinks = document.getElementById('navbarLinks');
         navLinks.classList.toggle('open');
         navLinks.classList.toggle('close');

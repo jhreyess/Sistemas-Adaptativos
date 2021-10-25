@@ -41,31 +41,32 @@ function Practica1(){
                 <h3 id="practica1/introduction">Introduction</h3>
                 <p>The problem was solved using Python and different modules such as Pygame for the simulation 
                     displaying and threading for the execution of the algorithm.
-                    The first task done was to creade the environment of intersectios and congested streets, after that,
-                    it was necesary to consider the different ways how adjustment could be solved, in this case, the
+                    The first task done was to create the environment of intersections and congested streets, after that,
+                    it was necessary to consider the different ways how adjustment could be solved, in this case, the
                     analysis of the street lanes senses allows us to determine the quantity of queues and servers that
                     the system have. Later in this document, it will be possible to observe the development of a MVC 
                     architecture implementing queues and threads.
                 </p>
-                <h3 id="practica1/design">Cross Street Design</h3>
+                <h3 id="practica1/design">Cross Street Design &amp; Graphic Scheme </h3>
                 <p>In the diagram below, the different directions of the street lanes are shown, 
                     in which it is possible to see the straight direction and
                     the turn direction.
                     <br/>
                     A symbology is attached to each lane to allow understanding of the problem.
                 </p>
-                <Images><img src={img1} alt="Roads" /></Images>
-                <h3>Graphic Scheme</h3>
-                <Images><img src={img2} alt="Graph" /></Images>
+                <Images>
+                    <img src={img1} alt="Roads" />
+                    <img src={img2} alt="Graph" />
+                </Images>
                 <h3>Conflict matrix</h3>
                 <Table>
                     <thead>
-                        <tr>
+                        <tr className="table-row-header">
                             <th></th><th>A1</th><th>A2</th><th>B1</th><th>B2</th><th>C1</th><th>C2</th><th>D1</th><th>D2</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr className="table-row">
                             <td>Case 1</td>
                             <td>1</td>
                             <td>0</td>
@@ -76,7 +77,7 @@ function Practica1(){
                             <td>0</td>
                             <td>0</td>
                         </tr>
-                        <tr>
+                        <tr className="table-row">
                             <td>Case 2</td>
                             <td>0</td>
                             <td>1</td>
@@ -87,7 +88,7 @@ function Practica1(){
                             <td>0</td>
                             <td>0</td>
                         </tr>
-                        <tr>
+                        <tr className="table-row">
                             <td>Case 3</td>
                             <td>0</td>
                             <td>0</td>
@@ -98,7 +99,7 @@ function Practica1(){
                             <td>1</td>
                             <td>0</td>
                         </tr>
-                        <tr>
+                        <tr className="table-row">
                             <td>Case 4</td>
                             <td>0</td>
                             <td>0</td>

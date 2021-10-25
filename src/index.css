@@ -24,8 +24,8 @@ code {
 }
 
 iframe{
-  width: 80%;
-  height: 45vw;
+  width: 100%;
+  height: 33vw;
 }
 
 @media only screen and (max-Width: 768px){

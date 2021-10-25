@@ -1,17 +1,19 @@
 .table table{
     border-collapse: collapse;
-    width: 50%;
+    width: 100%;
+    background-color: #fff;
 }
 
 .table thead{
+    background-color: #f8f8f8;
     text-align: left;
 }
 
-.table td{
+.table-row-header th{
+    padding: 1em 0;
+}
+
+.table-row td{
+    border-top: 1px solid #c0c0c0;
     padding: 8px;
-    text-align: left;
-}
-
-.table tr:nth-child(even){
-    background-color: #cacaca;
 }
