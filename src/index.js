@@ -17,11 +17,11 @@ const App = () => {
         <Router>
           <NavigationBar />
           <Switch>
-            <Route exact path="/practica1" component={Practica1}/>
-            <Route exact path="/practica2" component={Practica2}/>
-            <Route exact path="/practica3" component={Practica3}/>
-            <Route exact path="/practica4" component={Practica4}/>
-            <Route exact path="/pia" component={Pia}/>
+            <Route path="/practica1" component={Practica1}/>
+            <Route path="/practica2" component={Practica2}/>
+            <Route path="/practica3" component={Practica3}/>
+            <Route path="/practica4" component={Practica4}/>
+            <Route path="/pia" component={Pia}/>
             <Route path="/" component={Practica1}/>
           </Switch>
         </Router>
