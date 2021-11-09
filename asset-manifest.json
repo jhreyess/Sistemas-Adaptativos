@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Sistemas-Adaptativos/static/css/main.9318e806.chunk.css",
-    "main.js": "/Sistemas-Adaptativos/static/js/main.0864b36c.chunk.js",
-    "main.js.map": "/Sistemas-Adaptativos/static/js/main.0864b36c.chunk.js.map",
+    "main.css": "/Sistemas-Adaptativos/static/css/main.73a5196e.chunk.css",
+    "main.js": "/Sistemas-Adaptativos/static/js/main.43742d5a.chunk.js",
+    "main.js.map": "/Sistemas-Adaptativos/static/js/main.43742d5a.chunk.js.map",
     "runtime-main.js": "/Sistemas-Adaptativos/static/js/runtime-main.b14d7d74.js",
     "runtime-main.js.map": "/Sistemas-Adaptativos/static/js/runtime-main.b14d7d74.js.map",
     "static/js/2.731902e9.chunk.js": "/Sistemas-Adaptativos/static/js/2.731902e9.chunk.js",
     "static/js/2.731902e9.chunk.js.map": "/Sistemas-Adaptativos/static/js/2.731902e9.chunk.js.map",
     "index.html": "/Sistemas-Adaptativos/index.html",
-    "static/css/main.9318e806.chunk.css.map": "/Sistemas-Adaptativos/static/css/main.9318e806.chunk.css.map",
+    "static/css/main.73a5196e.chunk.css.map": "/Sistemas-Adaptativos/static/css/main.73a5196e.chunk.css.map",
     "static/js/2.731902e9.chunk.js.LICENSE.txt": "/Sistemas-Adaptativos/static/js/2.731902e9.chunk.js.LICENSE.txt",
     "static/media/cases.67fb771b.jpg": "/Sistemas-Adaptativos/static/media/cases.67fb771b.jpg",
     "static/media/code1.47ca86fd.jpg": "/Sistemas-Adaptativos/static/media/code1.47ca86fd.jpg",
@@ -30,6 +30,7 @@
     "static/media/example3.4a15dc0c.jpg": "/Sistemas-Adaptativos/static/media/example3.4a15dc0c.jpg",
     "static/media/file.8db2a1e4.jpg": "/Sistemas-Adaptativos/static/media/file.8db2a1e4.jpg",
     "static/media/file2.5c36166a.jpg": "/Sistemas-Adaptativos/static/media/file2.5c36166a.jpg",
+    "static/media/gameOfLife.64b3dd3d.jpg": "/Sistemas-Adaptativos/static/media/gameOfLife.64b3dd3d.jpg",
     "static/media/graph.69f3fb79.jpg": "/Sistemas-Adaptativos/static/media/graph.69f3fb79.jpg",
     "static/media/network.3e821861.jpg": "/Sistemas-Adaptativos/static/media/network.3e821861.jpg",
     "static/media/patterns.488f952f.jpg": "/Sistemas-Adaptativos/static/media/patterns.488f952f.jpg",
@@ -41,7 +42,7 @@
   "entrypoints": [
     "static/js/runtime-main.b14d7d74.js",
     "static/js/2.731902e9.chunk.js",
-    "static/css/main.9318e806.chunk.css",
-    "static/js/main.0864b36c.chunk.js"
+    "static/css/main.73a5196e.chunk.css",
+    "static/js/main.43742d5a.chunk.js"
   ]
 }
