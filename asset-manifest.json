@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Sistemas-Adaptativos/static/css/main.cf027d60.chunk.css",
-    "main.js": "/Sistemas-Adaptativos/static/js/main.13c3eb57.chunk.js",
-    "main.js.map": "/Sistemas-Adaptativos/static/js/main.13c3eb57.chunk.js.map",
+    "main.css": "/Sistemas-Adaptativos/static/css/main.9318e806.chunk.css",
+    "main.js": "/Sistemas-Adaptativos/static/js/main.0864b36c.chunk.js",
+    "main.js.map": "/Sistemas-Adaptativos/static/js/main.0864b36c.chunk.js.map",
     "runtime-main.js": "/Sistemas-Adaptativos/static/js/runtime-main.b14d7d74.js",
     "runtime-main.js.map": "/Sistemas-Adaptativos/static/js/runtime-main.b14d7d74.js.map",
-    "static/js/2.75a3ae1f.chunk.js": "/Sistemas-Adaptativos/static/js/2.75a3ae1f.chunk.js",
-    "static/js/2.75a3ae1f.chunk.js.map": "/Sistemas-Adaptativos/static/js/2.75a3ae1f.chunk.js.map",
+    "static/js/2.731902e9.chunk.js": "/Sistemas-Adaptativos/static/js/2.731902e9.chunk.js",
+    "static/js/2.731902e9.chunk.js.map": "/Sistemas-Adaptativos/static/js/2.731902e9.chunk.js.map",
     "index.html": "/Sistemas-Adaptativos/index.html",
-    "static/css/main.cf027d60.chunk.css.map": "/Sistemas-Adaptativos/static/css/main.cf027d60.chunk.css.map",
-    "static/js/2.75a3ae1f.chunk.js.LICENSE.txt": "/Sistemas-Adaptativos/static/js/2.75a3ae1f.chunk.js.LICENSE.txt",
+    "static/css/main.9318e806.chunk.css.map": "/Sistemas-Adaptativos/static/css/main.9318e806.chunk.css.map",
+    "static/js/2.731902e9.chunk.js.LICENSE.txt": "/Sistemas-Adaptativos/static/js/2.731902e9.chunk.js.LICENSE.txt",
     "static/media/cases.67fb771b.jpg": "/Sistemas-Adaptativos/static/media/cases.67fb771b.jpg",
     "static/media/code1.47ca86fd.jpg": "/Sistemas-Adaptativos/static/media/code1.47ca86fd.jpg",
     "static/media/diapo1.0b57f82c.jpg": "/Sistemas-Adaptativos/static/media/diapo1.0b57f82c.jpg",
@@ -32,13 +32,16 @@
     "static/media/file2.5c36166a.jpg": "/Sistemas-Adaptativos/static/media/file2.5c36166a.jpg",
     "static/media/graph.69f3fb79.jpg": "/Sistemas-Adaptativos/static/media/graph.69f3fb79.jpg",
     "static/media/network.3e821861.jpg": "/Sistemas-Adaptativos/static/media/network.3e821861.jpg",
+    "static/media/patterns.488f952f.jpg": "/Sistemas-Adaptativos/static/media/patterns.488f952f.jpg",
     "static/media/queue.322f7b35.jpg": "/Sistemas-Adaptativos/static/media/queue.322f7b35.jpg",
-    "static/media/roads.4c91e9c8.jpg": "/Sistemas-Adaptativos/static/media/roads.4c91e9c8.jpg"
+    "static/media/results1.91c344f7.jpg": "/Sistemas-Adaptativos/static/media/results1.91c344f7.jpg",
+    "static/media/roads.4c91e9c8.jpg": "/Sistemas-Adaptativos/static/media/roads.4c91e9c8.jpg",
+    "static/media/rules.d8218353.jpg": "/Sistemas-Adaptativos/static/media/rules.d8218353.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b14d7d74.js",
-    "static/js/2.75a3ae1f.chunk.js",
-    "static/css/main.cf027d60.chunk.css",
-    "static/js/main.13c3eb57.chunk.js"
+    "static/js/2.731902e9.chunk.js",
+    "static/css/main.9318e806.chunk.css",
+    "static/js/main.0864b36c.chunk.js"
   ]
 }
