@@ -1,15 +1,24 @@
 {
   "files": {
     "main.css": "/Sistemas-Adaptativos/static/css/main.73a5196e.chunk.css",
-    "main.js": "/Sistemas-Adaptativos/static/js/main.43742d5a.chunk.js",
-    "main.js.map": "/Sistemas-Adaptativos/static/js/main.43742d5a.chunk.js.map",
+    "main.js": "/Sistemas-Adaptativos/static/js/main.05e4f002.chunk.js",
+    "main.js.map": "/Sistemas-Adaptativos/static/js/main.05e4f002.chunk.js.map",
     "runtime-main.js": "/Sistemas-Adaptativos/static/js/runtime-main.b14d7d74.js",
     "runtime-main.js.map": "/Sistemas-Adaptativos/static/js/runtime-main.b14d7d74.js.map",
-    "static/js/2.731902e9.chunk.js": "/Sistemas-Adaptativos/static/js/2.731902e9.chunk.js",
-    "static/js/2.731902e9.chunk.js.map": "/Sistemas-Adaptativos/static/js/2.731902e9.chunk.js.map",
+    "static/js/2.b2fbf523.chunk.js": "/Sistemas-Adaptativos/static/js/2.b2fbf523.chunk.js",
+    "static/js/2.b2fbf523.chunk.js.map": "/Sistemas-Adaptativos/static/js/2.b2fbf523.chunk.js.map",
     "index.html": "/Sistemas-Adaptativos/index.html",
     "static/css/main.73a5196e.chunk.css.map": "/Sistemas-Adaptativos/static/css/main.73a5196e.chunk.css.map",
-    "static/js/2.731902e9.chunk.js.LICENSE.txt": "/Sistemas-Adaptativos/static/js/2.731902e9.chunk.js.LICENSE.txt",
+    "static/js/2.b2fbf523.chunk.js.LICENSE.txt": "/Sistemas-Adaptativos/static/js/2.b2fbf523.chunk.js.LICENSE.txt",
+    "static/media/ants1.8b4a9788.jpg": "/Sistemas-Adaptativos/static/media/ants1.8b4a9788.jpg",
+    "static/media/ants10.c93c7f64.jpg": "/Sistemas-Adaptativos/static/media/ants10.c93c7f64.jpg",
+    "static/media/ants11.cd37903c.jpg": "/Sistemas-Adaptativos/static/media/ants11.cd37903c.jpg",
+    "static/media/ants3.4d211dfb.jpg": "/Sistemas-Adaptativos/static/media/ants3.4d211dfb.jpg",
+    "static/media/ants4.18130fbf.jpg": "/Sistemas-Adaptativos/static/media/ants4.18130fbf.jpg",
+    "static/media/ants5.58f1f3c5.jpg": "/Sistemas-Adaptativos/static/media/ants5.58f1f3c5.jpg",
+    "static/media/ants6.13f3cff0.jpg": "/Sistemas-Adaptativos/static/media/ants6.13f3cff0.jpg",
+    "static/media/ants8.2660c855.jpg": "/Sistemas-Adaptativos/static/media/ants8.2660c855.jpg",
+    "static/media/ants9.ece37f15.jpg": "/Sistemas-Adaptativos/static/media/ants9.ece37f15.jpg",
     "static/media/cases.67fb771b.jpg": "/Sistemas-Adaptativos/static/media/cases.67fb771b.jpg",
     "static/media/code1.47ca86fd.jpg": "/Sistemas-Adaptativos/static/media/code1.47ca86fd.jpg",
     "static/media/diapo1.0b57f82c.jpg": "/Sistemas-Adaptativos/static/media/diapo1.0b57f82c.jpg",
@@ -41,8 +50,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b14d7d74.js",
-    "static/js/2.731902e9.chunk.js",
+    "static/js/2.b2fbf523.chunk.js",
     "static/css/main.73a5196e.chunk.css",
-    "static/js/main.43742d5a.chunk.js"
+    "static/js/main.05e4f002.chunk.js"
   ]
 }
