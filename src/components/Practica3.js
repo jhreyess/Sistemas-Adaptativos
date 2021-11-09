@@ -361,7 +361,7 @@ private int searchPosition(int num, int posX, int posY){
 }
                 </SyntaxHighlighter>
                 <h3 id="practica3/video">Performance</h3>
-                <iframe src="https://www.youtube.com/embed/SSJU7dyeEcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/SSJU7dyeEcs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 <h3 id="practica3/conclusions">Conclusions</h3>
                 <p>This practice left a lot of knowledge for each member of the team, this topic centered in the searching 
                     of the shortest path to achieve a goal, in this case by using trees allows the best comprehension of 

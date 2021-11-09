@@ -1,8 +1,9 @@
 import '../../styles/Table.css'
 
 function Table(props){
+    const classname = props.border ? 'table-border' : 'table'; 
     return(
-        <div className="table">
+        <div className={classname}>
             <table>
                 {props.children}
             </table>

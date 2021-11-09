@@ -157,7 +157,7 @@ public class GraphReader{
                 <img src={code1} alt="Code Results" />
             </Images>
             <h3 id="practica2/video">Performance</h3>
-            <iframe src="https://www.youtube.com/embed/MaiD8eFvmnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/MaiD8eFvmnM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             <h3 id="practica2/chaos">Chaos: Fractal Art - Part One</h3>
             <Images>
                 <img src={slide1} alt="Slide 1" />
